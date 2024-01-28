@@ -1,0 +1,55 @@
+/* * {
+  border : 1px solid black;
+} */
+
+.main-body-wrap {
+  margin : 0 auto;
+}
+
+/* 사이즈 고정  */
+.main-body-wrap, .header-body {
+  min-width : 1020px;
+  max-width : 1020px;
+}
+
+.main-header-banner {
+  text-align : center;
+}
+
+.main-header-banner img {
+  min-width : 1020px;
+}
+
+.today-wrap{
+  min-width : 250px;
+  max-width : 250px;
+}
+
+.latest-comments-wrap {
+  min-width : 200px;
+  max-width : 200px;
+}
+
+.betstar-wrap {
+  min-width : 570px;
+  max-width : 570px;
+}
+
+.betstar-wrap {
+  scrollbar-width: none; 
+  padding : 0px 10px;/* 파이어폭스에서 스크롤바 숨김 */
+}
+
+.trending-betstar-wrap {
+    overflow-y: auto; /* 세로 스크롤 가능 */
+    overflow-x: hidden; /* 가로 스크롤 숨김 */
+    max-height: 100vh; /* 최대 높이 설정 */
+    scrollbar-width: none; 
+    
+}
+.trending-betstar-wrap::-webkit-scrollbar {
+    display: none; /* 웹킷 기반 브라우저(크롬, 사파리 등)에서 스크롤바 숨김 */
+}
+
+
+

@@ -1,0 +1,174 @@
+/* * {
+  border : 1px solid black;
+} */
+
+.forum-post-wrap {
+  padding-right: 10px;
+}
+
+.forum-post-banner img {
+  width: 100%;
+}
+
+.forum-post-title-body {
+  font-size: 20px;
+  padding: 15px;
+  border-bottom: 1px solid #dee2e6;
+}
+
+.forum-post-profile-image img {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  margin-right: 5px;
+}
+
+.forum-post-profile p {
+  margin: 0px 5px 0px 0px;
+  font-size: 14px;
+  padding: 6px 2px;
+}
+
+.post-likes,
+.forum-post-reply-likes {
+  color: #e8342e;
+  font-weight: 600;
+}
+
+.forum-post {
+  white-space: pre-line; /* 기본적인 텍스트 줄바꿈 허용 */
+  height: 100%;
+  max-width: 100%;
+  font-size: 16px;
+  padding: 0px 20px 10px 20px;
+}
+
+.forum-post img {
+  margin-bottom: 10px;
+}
+
+.forum-post-option {
+  border-bottom: 1px solid #dee2e6;
+  padding-bottom: 20px;
+  margin-top: 30px;
+}
+
+.forum-post-option div {
+  text-align: center;
+}
+
+.post-likes-score {
+  color: #e8342e;
+  font-weight: 600;
+}
+
+.btn-forum-list,
+.btn-forum-report {
+  margin-top: 50px;
+}
+
+.forum-post-reply-title {
+  padding: 8px 15px;
+  font-weight: 600;
+  border-bottom: 1px solid #dee2e6;
+  font-size: 14px;
+}
+
+.forum-post-reply-wrap {
+  border-bottom: 1px solid #dee2e6;
+}
+
+.forum-post-repla-profile {
+  padding: 10px 15px;
+}
+
+.forum-post-reply-profile-image img {
+  margin: 0px 5px 0px 10px;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+}
+
+.forum-post-reply-writer p {
+  padding: 6px 2px;
+  font-size: 14px;
+  margin: 0px;
+}
+
+.forum-post-reply-body,
+.forum-post-reply-body-push {
+  border-bottom: 1px solid #dee2e6;
+}
+
+.forum-post-reply {
+  padding: 0px 10px 5px 10px;
+  font-size: 14px;
+}
+
+.forum-post-replay-push {
+  padding: 20px 5px 0px 10px;
+}
+
+.forum-post-reply-data {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.forum-post-reply-data p {
+  font-size: 14px;
+  padding: 6px 3px;
+  margin: 0px;
+}
+
+.btn-reply-like,
+.btn-reply-write,
+.btn-reply-report {
+  background: none;
+  border: none;
+  padding: 0;
+  margin: 0;
+  font-size: 14px;
+  padding: 0px 5px;
+}
+
+.btn-reply-write :hover,
+.btn-reply-report :hover {
+  font-weight: 600;
+}
+
+.btn-reply-like:focus {
+  outline: none;
+}
+
+.btn-reply-like.active {
+  color: #b11015; /* 활성화 상태일 때의 색상 */
+  font-weight: bold;
+}
+
+.forum-post-reply-data {
+  margin-left: 20px;
+}
+
+.forum-post-reply-body-push .forum-post-reply-data {
+  margin-left: 45px;
+}
+
+.forum-post-reply-write-title {
+  padding: 8px 15px;
+  font-weight: 600;
+  font-size: 14px;
+  border-bottom : none;
+}
+.forum-post-reply-write {
+  padding : 0px 0px 15px 15px;
+  font-size : 14px;
+}
+
+.reply-write-area {
+  border : 1px solid #dee2e6;
+}
+
+.forum-post-reply-write button{
+  margin-left : 10px;
+  padding : 15px 10px;
+}

@@ -1,0 +1,75 @@
+.betstar-hot-wrap {
+  padding: 5px 8px;
+  display: flex;
+  justify-content: space-around;
+  min-width : 230px;
+}
+
+.betstar-content {
+  padding: 0px 7px;
+  font-size: 12px;
+  width: 100%;
+  margin-bottom: 5px;
+}
+
+.betstar-profile-image img {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+}
+
+.betstar-profile-name {
+  height: 100%;
+}
+.betstar-profile-name p {
+  padding: 14px 0px 0px 5px;
+  margin: 0px;
+}
+
+.betstar-content-title {
+  padding: 0px 10px;
+  font-size: 14px;
+  font-weight: 600;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 1;
+  overflow: hidden;
+}
+
+.betstar-content-image {
+  position: relative; /* 오버레이 컨테이너를 상대적 위치로 설정 */
+}
+
+.overlay-temperature {
+  position: absolute; /* 오버레이를 절대적 위치로 설정 */
+  bottom: 10px; /* 하단에서 0의 위치에 설정 */
+  right: 10px; /* 오른쪽에서 0의 위치에 설정 */
+  display: flex; /* flexbox를 사용하여 오버레이 내용 정렬 */
+  align-items: center; /* 세로 중앙 정렬 */
+  justify-content: center; /* 가로 중앙 정렬 */
+  background-color: white;
+  border-radius: 5px;
+  padding: 8px 0px 5px 5px;
+}
+
+.overlay-temperature p {
+  color: #e8342e;
+  font-size: 16px;
+  font-weight: bold;
+  margin: 0px;
+  padding-right: 5px;
+}
+
+.betstar-content-image img {
+  margin-top: 5px;
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+}
+
+.tranding-now {
+  display: flex; /* Flexbox 사용 */
+  justify-content: center; /* 가로 방향으로 중앙 정렬 */
+  align-items: center; /* 세로 방향으로 중앙 정렬 */
+  height: 100%; /* 부모 요소의 전체 높이 사용 */
+}

@@ -1,0 +1,54 @@
+/* * {
+  border : 1px solid black;
+} */
+
+/* 네이버 스퀘어 폰트 지정 */
+body {
+  font-family: "Spoqa Han Sans Neo", "sans-serif";
+}
+
+/* 박스 음영주기 */
+.box-shadow {
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+/* 윗첨자주기 */
+.superscript {
+  vertical-align: super;
+  /* 윗첨자 위치 */
+  font-size: smaller;
+  /* 기본 텍스트 크기보다 작게 */
+  margin-left: 3px;
+  color: #b11015;
+  /* 텍스트와 숫자 사이의 간격을 조정 */
+  font-weight: 700;
+}
+
+.superscript2 {
+  vertical-align: super;
+  /* 윗첨자 위치 */
+  font-size: 9px;
+  margin-left: 3px;
+  color: #b11015;
+  font-weight: 700;
+}
+
+/* 수직정렬 */
+.vertical-align {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+}
+
+.hided * {
+  display: none; /* 요소를 숨김 */
+}
+
+.visible * {
+  display: block; /* 요소를 화면에 표시 */
+}
+
+.hidden-item {
+  display: none;
+}

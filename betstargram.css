@@ -1,0 +1,113 @@
+/* * {
+  border : 1px solid black;
+} */
+
+.betstargram-wrap {
+  margin: 0px 5px 10px 5px;
+  padding: 0;
+  border: 1px solid rgb(194, 192, 192);
+  border-radius: 3px;
+  background-color: white;
+}
+
+.betstargram-content-thumbnail {
+  width: 100px;
+}
+
+.betstargram-content-thumbnail img {
+  width: 100%;
+  height : 65px;
+  object-fit: cover;
+}
+
+.betstargram-content-score {
+  width: 60px;
+}
+
+.betstargram-content-body {
+  padding: 10px 10px 0px 10px;
+  width: 370px;
+  min-height : 65px;
+  max-height : 65px;
+}
+
+.betstargram-content-title,
+.betstargram-content-inside {
+  height: 28px;
+}
+
+.betstargram-content-title {
+  font-size: 14px;
+  display: block; /* 블록 레벨 요소로 만들어 주어야 함 */
+  white-space: nowrap; /* 텍스트가 줄바꿈되지 않도록 설정 */
+  overflow: hidden; /* 내용이 넘칠 경우 숨김 */
+  text-overflow: ellipsis; /* 넘친 텍스트를 말줄임표로 표시 */
+  width: 100%; /* 필요에 따라 조정할 수 있음 */
+}
+
+.betstargram-content-title,
+.betstargram-content-large-title {
+  margin-right: 5px;
+  font-weight: bold;
+}
+
+.betstargram-profile {
+  padding: 8px 0px 0px 10px;
+}
+
+.betstargram-profile-name {
+  height: 100%;
+}
+
+.betstargram-profile-name p {
+  padding: 5px 0px 0px 5px;
+  margin: 0px;
+}
+
+.betstargram-content-large-title {
+  padding-left: 12px;
+  font-size: 15px;
+  font-weight: 600;
+  margin-top: 10px;
+}
+
+.betstargram-content-inside {
+  font-size: 12px;
+  white-space: normal; /* 기본적인 텍스트 줄바꿈 허용 */
+  height: 100%;
+}
+
+.betstargram-temperature {
+  color: #e8342e;
+  font-size: 16px;
+  font-weight: bold;
+  padding-left: 4px;
+}
+
+.betstargram-profile-image img {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+}
+
+.betstargram-profile-name {
+  font-size: 14px;
+  height: 100%;
+}
+
+.betstargram-profile-name p {
+  margin: 0px;
+}
+
+.betstargram-content {
+  padding: 5px 15px;
+}
+
+.betstargram-content-image img {
+  width: 100%;
+}
+
+.betstargram-banner img {
+  width: 100%;
+  padding: 0px 5px;
+}

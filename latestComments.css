@@ -1,0 +1,44 @@
+.latest-comment-body {
+  border : 1px solid rgba(44, 62, 80, 0.25);
+  padding : 2px 0px;
+}
+
+.table th {
+  font-size: 14px;
+  border : none;
+}
+
+.table tr {
+  height: 30px;
+  font-size: 12px; /* 폰트 사이즈를 14px로 설정 */
+  padding: 3px;
+  border-top: 1px solid rgba(44, 62, 80, 0.25);
+}
+
+.table tr:first-child {
+  border : none;
+}
+
+.table td {
+  border: none;
+}
+
+.latest-comment-title {
+  white-space: nowrap; /* 텍스트를 한 줄로 만듭니다. */
+  overflow: hidden; /* 넘치는 텍스트를 숨깁니다. */
+  text-overflow: ellipsis; /* 넘치는 텍스트를 ... 으로 표시합니다. */
+  min-width: 140px;
+  max-width: 140px;
+}
+
+.latest-comment-date {
+  text-align: right;
+  min-width: 58px;
+}
+
+.latest-comment-banner img {
+  width: 100%;
+  padding: 0px;
+  display: flex;
+  object-fit: cover;
+}

@@ -1,0 +1,57 @@
+/* 메인 메뉴 실시간 화제 */
+.betstar-hot-body:nth-child(1) {
+    margin-right: 0.2em;
+}
+.betstar-hot-body:nth-child(2) {
+    margin-left: 0.2em;
+}
+/* betstarHot.css 온도계 숫자 수정 */
+.betstargram-temperature {
+    font-weight: normal;
+}
+
+.overlay-temperature p {
+    font-weight: normal;
+}
+
+.today-list-tab .nav-item {
+    cursor:pointer;
+}
+
+.today-match-list-all {
+    width:100%;
+    text-align:center;
+    cursor: pointer;
+    display: none;
+}
+.today-match-list-all.active {
+    display: block;
+}
+
+.non-list {
+    text-align:center;
+    font-size: 14px;
+    font-weight:bold;
+    color: rgb(148, 148, 148);
+    padding: 80px 0 120px;
+    border-bottom: 1px solid #bdbdbd;
+}
+.non-list i {
+    margin-right:8px;
+}
+
+.end-list {
+    text-align:center;
+    font-size: 14px;
+    font-weight:bold;
+    color: rgb(148, 148, 148);
+    padding: 20px 0 20px;
+    border-bottom: 1px solid #bdbdbd;
+}
+.end-list i {
+    margin-right:8px;
+}
+.red-font {
+    color: #e8342e;
+    margin:0 5px;
+}

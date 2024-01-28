@@ -1,0 +1,123 @@
+/* * {
+  border : 1px solid black;
+} */
+
+.header-wrap {
+  background-color: #f8f8f8;
+  color: #b11015;
+  padding: 5px 0px 0px 0px;
+}
+
+.header-body {
+  padding: 5px 0px;
+  padding-top: 2px solid #2c3e50;
+  border-bottom: 2px solid #2c3e50;
+  width: 1020px;
+}
+
+.header-logo {
+  width: 150px;
+}
+
+.header-logo img {
+  padding-top: 7px;
+  width: 120px;
+}
+
+.heder-menu {
+  width: 700px;
+}
+
+.header-menu-list {
+  padding-top: 7px;
+  background-color: transparent;
+  display: flex;
+  justify-content: space-around;
+}
+
+.header-menu-list li {
+  font-size: 18px;
+  font-weight: 600;
+  padding: 0px 40px;
+}
+
+.header-menu-list li a {
+  color: #b11015;
+  text-decoration-line: none;
+}
+
+.header-menu-user-info {
+  width: 150px;
+  height: 35px;
+  position: relative;
+  padding-top: 10px;
+}
+
+.header-menu-user-info * {
+  color: #2c3e50;
+}
+
+.header-menu-user-name {
+  font-weight: 600;
+  font-size: 12px;
+  margin-left: 3px;
+  cursor: pointer;
+}
+
+.user-info-drop {
+  display: none;
+  align-items: center;
+  position: absolute;
+  right: 0;
+  top: 38px;
+  background-color: #f8f8f8;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+  padding: 5px 0px;
+  flex-direction: column; /* 자식 요소들을 세로로 정렬 */
+  align-items: center; /* 세로축 기준으로 중앙 정렬 */
+  text-align: center; /* 텍스트 중앙 정렬 */
+}
+
+.user-info-drop img {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  margin-top: 15px;
+}
+
+.user-info-drop a {
+  color: black;
+  text-decoration: none;
+  padding: 5px 0px;
+  display: block;
+  font-size: 12px;
+  height: 30px;
+  width: 100%;
+}
+
+.user-info-drop a:hover {
+  font-weight: 600px;
+  background-color: #f1f1f1;
+}
+
+.header-login-before {
+  text-align: right;
+  font-size: 14px;
+  font-weight: bold;
+  margin-right: 5px;
+  padding-top: 10px;
+}
+
+.main-header-banner {
+  padding: 10px 0px;
+}
+
+.betstar-menu-title {
+    color: #b11015;
+}
+
+/* * {
+  border : 1px solid black;
+} */

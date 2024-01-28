@@ -1,0 +1,88 @@
+
+.today-list-body {
+  min-width: 100%;
+
+}
+
+.today-list-tab {
+  margin-top: 8px;
+}
+
+.today-list-tab li {
+  background-color: transparent;
+  display: flex;
+  justify-content: space-around;
+}
+
+.nav-tabs {
+  display: flex;
+  justify-content: space-around;
+  list-style: none; /* Removes default list styling */
+  padding: 0; /* Removes default padding */
+}
+
+#nav-tab-basketball,
+#nav-tab-volleyball,
+#nav-tab-baseball,
+#nav-tab-football {
+  color: #2c3e50;
+  padding: 5px 0px;
+  font-size : 14px;
+  font-weight: 600;
+  text-align: center;
+  width: 60px;
+}
+
+.today-match-list {
+  padding: 1px;
+  font-size: 12px;
+}
+
+.today-match-list th {
+  font-size: 13px;
+}
+
+.today-match-list td {
+  height: 100%;
+  border-bottom: 1px solid rgba(44, 62, 80, 0.25);
+  padding: 3px 0px;
+}
+
+.today-match-list-title {
+  padding: 8px 0px;
+  border-bottom: 1px solid rgba(44, 62, 80, 0.25);
+  height: 2rem;
+}
+
+.pml-league {
+  width: 60px;
+  text-align: center;
+}
+
+.pml-date {
+  width: 70px;
+  text-align: center;
+}
+.pml-home,
+.pml-away {
+  width: 95px;
+  text-align: center;
+}
+
+.pml-home img,
+.pml-away img {
+  width: 25px;
+  height: 25px;
+}
+
+.ml-all,
+.pml-count,
+.pml-ball {
+  text-align: center;
+}
+
+.today-match-list-all {
+  padding: 7px;
+  text-align: center;
+  font-size: 14px;
+}

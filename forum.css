@@ -1,0 +1,82 @@
+/* * {
+  border: 1px solid black;
+} */
+
+.forum-header {
+  padding: 0px 10px;
+}
+
+.forum-most-body {
+  margin: 0;
+  padding: 0;
+}
+
+.forum-most-view-body {
+  margin-right: 10px;
+}
+
+.forum-list-body {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+}
+
+.forum-board-large,
+.forum-board-small {
+  border-radius: 5px;
+  padding: 10px;
+  margin-bottom: 12px;
+}
+
+.forum-board-small {
+  margin-right: 12px;
+}
+
+/* 마지막 div는 오른쪽 마진이 없도록 설정 */
+.forum-board-small:last-child {
+  margin-right: 0;
+}
+
+.forum-board-title {
+  font-weight: 600;
+  font-size: 18px;
+}
+
+.forum-board-title {
+  border-bottom: 1px solid #dee2e6;
+  padding-bottom: 5px;
+  font-size: 16px;
+}
+
+.forum-board-small .forum-board td {
+  white-space: nowrap; /* 내용을 한 줄로 유지 */
+  overflow: hidden; /* 내용이 넘칠 경우 숨김 */
+  text-overflow: ellipsis; /* 넘치는 내용을 ...로 표시 */
+  max-width: 0; /* td의 최대 너비를 제한 */
+}
+
+.foum-board-small .forum-board td {
+  white-space: nowrap; /* 내용을 한 줄로 유지 */
+  overflow: hidden; /* 내용이 넘칠 경우 숨김 */
+  text-overflow: ellipsis; /* 넘치는 내용을 ...로 표시 */
+  max-width: 0%; /* td의 최대 너비를 제한 */
+  width: 80%;
+}
+
+.forum-board-category {
+  font-size: 14px;
+}
+.forum-board tr {
+  font-size: 14px;
+  border-bottom: 1px solid #dee2e6;
+  height: 32px;
+}
+
+.forum-icon {
+  text-align: center;
+  padding-top: 3px;
+}
+
+.btn-menu-search {
+  padding: 3px 10px !important;
+}

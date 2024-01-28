@@ -1,0 +1,29 @@
+.bar {
+  padding-top: 5px;
+  font-size: 1.2em;
+}
+.betstar-menu {
+  min-height: 42px;
+  padding : 0px 3px;
+}
+
+.betstar-menu-list {
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 2px solid black;
+}
+
+.betstar-menu-list li {
+  font-size: 14px;
+  font-weight: bold;
+  padding: 5px 20px;
+}
+
+.betstar-menu-list a {
+  color: black;
+  text-decoration: none;
+}
+
+.tranding-now  a{
+  color : #b11015;
+}

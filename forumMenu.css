@@ -1,0 +1,54 @@
+.forum-menu-wrap {
+  margin : 0px;
+  padding : 0px;
+}
+
+.forum-menu {
+  margin : 0;
+  display: flex;
+  justify-content: space-around;
+  border-top: 1px solid black;
+  border-bottom : 1px solid black;
+  height : 35px;
+  padding-top : 5px;
+
+}
+
+.forum-menu li {
+ margin : 0px 25px;
+ font-size: 16px;
+ color : black;
+ font-weight : 600;
+}
+
+.forum-menu-search {
+  color : black;
+  border-top: 1px solid black;
+  border-bottom: 1px solid black;
+  height: 35px;
+  padding-top: 5px;
+}
+
+.forum-menu-list li a {
+  text-decoration-line: none;
+  color : black;
+}
+
+.forum-menu-list div:hover {
+  border-bottom : 2px solid #B11015;
+  color: #B11015;
+}
+
+.forum-menu-list li:hover {
+  color: #B11015;
+  font-weight :700;
+}
+
+.input-search-form {
+  height : 30px;
+  margin : -4px 10px 0px 0px;
+}
+
+.form-control {
+  margin-right : 5px;
+}
