@@ -1,23 +1,37 @@
-/* 메인 메뉴 실시간 화제 */
-.betstar-hot-body:nth-child(1) {
-    margin-right: 0.2em;
+/* 공통 부분 */
+.header-body {
+    position: relative;
 }
-.betstar-hot-body:nth-child(2) {
-    margin-left: 0.2em;
+/* 리스트가 존재하지 않을때 */
+.non-list {
+    text-align:center;
+    font-size: 14px;
+    font-weight:bold;
+    color: rgb(148, 148, 148);
 }
-/* betstarHot.css 온도계 숫자 수정 */
-.betstargram-temperature {
-    font-weight: normal;
+.non-list i {
+    margin-right: 8px;
+}
+/* 상단 메뉴바 드롭다운 */
+.user-info-drop {
+    display: none;
+    position:absolute;
+    right:5px;
+}
+.user-info-drop img {
+    margin-bottom:15px;
+}
+.user-info-drop.show {
+    display: block;
 }
 
-.overlay-temperature p {
-    font-weight: normal;
-}
-
+/* main page */
+/* 
+    오늘의 경기 부분 
+*/
 .today-list-tab .nav-item {
     cursor:pointer;
 }
-
 .today-match-list-all {
     width:100%;
     text-align:center;
@@ -27,22 +41,44 @@
 .today-match-list-all.active {
     display: block;
 }
-.body-wrap {
-    position:relative;
+
+/* 
+    실시간 화제 부분 
+*/
+/* 실시간 화제 인기글 의 사이 간격 */
+.betstar-wrap .betstar-hot-body:nth-child(1) {
+    margin-right: 0.2em;
 }
-.non-list {
-    text-align:center;
-    font-size: 14px;
-    font-weight:bold;
-    color: rgb(148, 148, 148);
+.betstar-wrap .betstar-hot-body:nth-child(2) {
+    margin-left: 0.2em;
+}
+/* 온도계 숫자 weight 수정 */
+.betstargram-temperature {
+    font-weight: normal;
+}
+.overlay-temperature p {
+    font-weight: normal;
+}
+/* 중간에 들어가는 배너 부분 */
+.betstar-wrap .betstargram-banner {
+    margin-bottom: 10px;
+}
+.betstar-wrap .betstargram-banner img {
+    width: 100%;
+    height: 100px;
+}
+/* 실시간 화제 댓글/추천 숫자 부분 */
+.betstar-wrap .red-font {
+    color: #e8342e;
+    margin:0 5px;
+}
+/* 리스트가 존재하지 않을때 */
+.betstar-wrap .non-list {
     padding: 80px 0 120px;
     border-bottom: 1px solid #bdbdbd;
 }
-.non-list i {
-    margin-right:8px;
-}
-
-.end-list {
+/* 목록이 더이상 존재하지 않을때 */
+.betstar-wrap .end-list {
     text-align:center;
     font-size: 14px;
     font-weight:bold;
@@ -51,21 +87,11 @@
     margin-bottom:10px;
     border-bottom: 1px solid #bdbdbd;
 }
-.end-list i {
-    margin-right:8px;
+.betstar-wrap .end-list i {
+    margin-right: 8px;
 }
-.red-font {
-    color: #e8342e;
-    margin:0 5px;
-}
-.betstargram-banner {
-    margin-bottom: 10px;
-}
-.betstargram-banner img {
-    width: 100%;
-    height: 100px;
-}
-.move-up {
+/* 바로 위로 가기 */
+.betstar-wrap .move-up {
     position: fixed;
     bottom: 20px; /* 원하는 위치로 조정 */
     right: 28%; /* 원하는 위치로 조정 */
@@ -77,6 +103,20 @@
     border-radius: 50%;
     cursor: pointer;
 }
-.move-up.show {
+.betstar-wrap .move-up.show {
     display: block;
+}
+/* 
+    최근 댓글 달린 게시글
+*/
+.table-hover tbody:nth-child(1) {
+    border-bottom: 1px solid #d1d0d0;
+}
+.table-hover .non-list {
+    font-size: 12px;
+    padding: 50px 0 48px;
+    color: rgb(119, 119, 119);
+}
+.table-hover .non-list i {
+    margin-right: 3px;
 }
